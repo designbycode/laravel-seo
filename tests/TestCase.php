@@ -2,9 +2,9 @@
 
 namespace Designbycode\Seo\Tests;
 
+use Designbycode\Seo\SeoServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Designbycode\Seo\SeoServiceProvider;
 
 class TestCase extends Orchestra
 {

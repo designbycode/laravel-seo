@@ -2,9 +2,9 @@
 
 namespace Designbycode\Seo;
 
+use Designbycode\Seo\Commands\SeoCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Designbycode\Seo\Commands\SeoCommand;
 
 class SeoServiceProvider extends PackageServiceProvider
 {
